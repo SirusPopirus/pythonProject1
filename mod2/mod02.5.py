@@ -8,4 +8,7 @@ lemassa = leiviskä * 20
 namassa = naula * 32
 lumassa = luoti * 13.3
 kokomassa =(lemassa * 32) * 13.3 + (namassa * 13.3) + lumassa
-print(f"Massa nykymittojen mukaan: " + str(kokomassa))
+kilo = kokomassa / 1000
+kilo1 = int(kilo)
+gramma = (kilo - kilo1) * 1000
+print(f"Massa nykymittojen mukaan:\n {kilo1:.0f} kg ja {gramma:.2f} g")

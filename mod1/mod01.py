@@ -1,4 +1,4 @@
-print("moro Matvei!")
+print("Moro Matvei!")
 print("hei\t kaikki")
 print("enemmän\n tilaa")
 
